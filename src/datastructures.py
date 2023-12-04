@@ -52,7 +52,7 @@ class FamilyStructure:
         for i, m in enumerate(self._members):
             if m['id'] == id:
                 self._members[i] = member
-                break
+                
 
     def get_member(self, id):
        for m in self._members:
